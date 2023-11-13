@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines the Place class."""
+"""Defines class place."""
 from models.base_model import BaseModel
 
 
