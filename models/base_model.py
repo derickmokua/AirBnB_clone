@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Defines the BaseModel class."""
+"""where BaseModel class is defined"""
 import models
 from uuid import uuid4
 from datetime import datetime
 
 
 class BaseModel:
-    """Represents the BaseModel of the HBnB project."""
+    """The BaseModel of the project."""
 
     def __init__(self, *args, **kwargs):
         """Initialize a new BaseModel.
@@ -46,6 +46,6 @@ class BaseModel:
         return rdict
 
     def __str__(self):
-        """Return the print/str representation of the BaseModel instance."""
+        """Returns print/str representation of the BaseModel instance"""
         clname = self.__class__.__name__
         return "[{}] ({}) {}".format(clname, self.id, self.__dict__)
